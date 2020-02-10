@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Wellfleet);
+
+body {
+	background-color: #fecc6f;
+	color: #fff;
+	font-family: 'Wellfleet', times, serif;
+	margin: 0px 0px 0px 0px;}
+
+h1 {
+
+    font-size:1.5em;
+    color: crimson;
+}
+
+
+h2 { 
+    font-size:1.2em; 
+}
+a:link { 
+    color:#33c; 
+} 
+a:visited { 
+    color:#339; 
+}
+p {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: black;
+}
+
+/* so linked image won't have border */
+a img { 
+    border:none; 
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
